@@ -1,0 +1,15 @@
+$white: #f3f1ef;
+$black: #212332;
+$purple: #9827bd;
+
+$primary-color: $purple;
+$dark-text-color: $black;
+$light-text-color: $white;
+
+:root {
+  --primary: #{$primary-color};
+  --dark-text-color: #{$dark-text-color};
+  --light-text-color: #{$light-text-color};
+  --white: #{$white};
+  --black: #{$black};
+}
