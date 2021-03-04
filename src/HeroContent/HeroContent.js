@@ -1,8 +1,12 @@
 import "./HeroContent.scss";
 import profileImage from "./profile.webp";
 import Age from "../Age/Age";
+import Button from "../components/Button/Button";
 
 function HeroContent() {
+  function onGetInTouchClick() {
+    console.log("get in touch");
+  }
   return (
     <div className="hero-content">
       <h1 className="hero-content__name">Andrew Hill</h1>
@@ -22,7 +26,11 @@ function HeroContent() {
           some interest in ReactJS, but I am familiar with much more. If you're
           interested in that list, take a look at my resume.
         </p>
-        <button className="info-card__get-in-touch">GET IN TOUCH</button>
+        <Button
+          text="GET IN TOUCH"
+          className="primary"
+          onclick={onGetInTouchClick}
+        />
       </div>
     </div>
   );
