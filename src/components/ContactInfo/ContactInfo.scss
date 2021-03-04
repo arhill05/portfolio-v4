@@ -1,0 +1,12 @@
+.contact-info {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background-color: var(--white);
+  z-index: 300;
+}

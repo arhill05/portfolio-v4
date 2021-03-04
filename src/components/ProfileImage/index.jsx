@@ -1,5 +1,5 @@
 import "./ProfileImage.scss";
-import profileImage from "./profile.webp";
+import profileImage from "../../assets/profile.webp";
 
 function ProfileImage() {
   return <img className="profile-image" src={profileImage} alt="profile" />;
