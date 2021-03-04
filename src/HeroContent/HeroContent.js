@@ -5,9 +5,7 @@ import Age from "../Age/Age";
 function HeroContent() {
   return (
     <div className="hero-content">
-      <h1 className="hero-content__name">
-        Andrew <br /> Hill
-      </h1>
+      <h1 className="hero-content__name">Andrew Hill</h1>
       <div className="hero-content__info-card">
         <div className="info-card__profile-image-container">
           <img src={profileImage} alt="profile" />

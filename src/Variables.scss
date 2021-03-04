@@ -3,11 +3,21 @@ $black: #212332;
 $purple: #9827bd;
 
 $primary-color: $purple;
+$primary-color-transparent: transparentize($primary-color, 0.8);
+$primary-color-dark-5: darken($primary-color, 5%);
+$primary-color-dark-8: darken($primary-color, 8%);
+$primary-color-dark-10: darken($primary-color, 10%);
+$primary-color-dark-15: darken($primary-color, 15%);
 $dark-text-color: $black;
 $light-text-color: $white;
 
 :root {
   --primary: #{$primary-color};
+  --primary-transparent: #{$primary-color-transparent};
+  --primary-dark-5: #{$primary-color-dark-5};
+  --primary-dark-8: #{$primary-color-dark-8};
+  --primary-dark-10: #{$primary-color-dark-10};
+  --primary-dark-15: #{$primary-color-dark-15};
   --dark-text-color: #{$dark-text-color};
   --light-text-color: #{$light-text-color};
   --white: #{$white};
