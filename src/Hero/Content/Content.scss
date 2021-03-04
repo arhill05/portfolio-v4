@@ -15,42 +15,6 @@ $primary: var(--primary);
   color: var(--light-text-color);
 }
 
-.hero-content__info-card {
-  background-color: var(--white);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 8px 10px rgba(0, 0, 0, 0.2);
-  padding: 30px;
-  text-align: left;
-  border-radius: 8px;
-  position: relative;
-
-  h2 {
-    color: var(--primary);
-  }
-}
-
-.info-card__get-in-touch {
-  background-color: var(--primary);
-  border: none;
-  border-radius: 4px;
-  color: var(--light-text-color);
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 8px 16px;
-  box-shadow: 2px 2px var(--primary-transparent);
-  backface-visibility: hidden;
-  &:hover {
-    transform: scale(1.02);
-    background-color: var(--primary-dark-5);
-    box-shadow: 3px 3px var(--primary-transparent);
-  }
-  &:active {
-    background-color: var(--primary-dark-10);
-    box-shadow: none;
-    transform: scale(0.96);
-  }
-}
-
 .info-card__profile-image-container {
   position: relative;
   left: 0;

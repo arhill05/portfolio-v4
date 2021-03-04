@@ -1,0 +1,28 @@
+.info-card {
+  background-color: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 8px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: left;
+  border-radius: 8px;
+  position: relative;
+
+  h2 {
+    color: var(--primary);
+  }
+}
+
+.info-card__profile-image-container {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-top: -40%;
+  display: flex;
+  justify-content: center;
+
+  img {
+    border-radius: 8px;
+    max-width: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+      drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.2));
+  }
+}
