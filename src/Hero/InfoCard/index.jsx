@@ -1,7 +1,7 @@
 import "./InfoCard.scss";
 import profileImage from "./profile.webp";
 import Age from "../../Age";
-import Button from "../../components/Button/Button";
+import Button from "../../components/Button";
 
 function InfoCard() {
   function onGetInTouchClick() {
