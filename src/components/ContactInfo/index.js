@@ -1,12 +1,16 @@
+import Email from "../SocialIcons/Email";
+import GitHub from "../SocialIcons/Github";
+import LinkedIn from "../SocialIcons/LinkedIn";
+import Twitter from "../SocialIcons/Twitter";
 import "./ContactInfo.scss";
 
 function ContactInfo() {
   return (
     <div className="contact-info">
-      <div>twitter</div>
-      <div>github</div>
-      <div>email</div>
-      <div>linkedin</div>
+      <Twitter />
+      <GitHub />
+      <Email />
+      <LinkedIn />
     </div>
   );
 }

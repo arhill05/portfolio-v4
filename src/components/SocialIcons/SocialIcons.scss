@@ -1,0 +1,16 @@
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: bold;
+  color: var(--primary);
+
+  svg {
+    fill: var(--primary);
+  }
+
+  span {
+    margin-left: 8px;
+  }
+}
