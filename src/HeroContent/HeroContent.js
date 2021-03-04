@@ -24,6 +24,7 @@ function HeroContent() {
           some interest in ReactJS, but I am familiar with much more. If you're
           interested in that list, take a look at my resume.
         </p>
+        <button className="info-card__get-in-touch">GET IN TOUCH</button>
       </div>
     </div>
   );
