@@ -1,12 +1,12 @@
 import "./Hero.scss";
-import Stars from "../Stars/Stars";
-import HeroContent from "../HeroContent/HeroContent";
+import Stars from "../Stars";
+import Content from "./Content";
 import herobg from "./herobg.png";
 
 function Hero() {
   return (
     <div className="hero">
-      <HeroContent />
+      <Content />
       <div className="hero__background-container">
         <img
           className="hero__background-image"
