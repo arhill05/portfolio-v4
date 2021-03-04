@@ -1,6 +1,6 @@
 import "./InfoCard.scss";
 import profileImage from "./profile.webp";
-import Age from "../../Age/Age";
+import Age from "../../Age";
 import Button from "../../components/Button/Button";
 
 function InfoCard() {
